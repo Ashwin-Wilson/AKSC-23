@@ -1,0 +1,253 @@
+* {
+    background-color: #111;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Welcome animation */
+
+.linear-wipe {
+    background: linear-gradient(to right,
+            #7953cd 20%,
+            #00affa 30%,
+            #0190cd 70%,
+            #764ada 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* animation end */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #007bff, #00aaff);
+    background-size: 200% 200%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-position 0.5s, transform 0.3s;
+}
+
+.btn:hover {
+    background-position: right bottom;
+    transform: translateY(-3px);
+}
+
+.page-1 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(1.2);
+    background-image: url(assets/bg-img.jpeg);
+    /* url(assets/bg-img.jpeg) */
+    /* padding-top: 0; */
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+
+}
+
+#main-title {
+    font-size: clamp(2rem, 12vw, 10rem);
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    line-height: 1;
+
+
+}
+
+#sec-title {
+    font-size: clamp(0.5rem, 3vw, 2rem);
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.sub-title {
+    font-size: clamp(0.5rem, 3vw, 2rem);
+    font-weight: 600;
+    color: #ff576b;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.text {
+    position: relative;
+    transform: skewY(345deg) translate(-200px);
+    animation: animateColor 5s linear infinite;
+}
+
+@keyframes animateColor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+.text h2 {
+    position: relative;
+    width: 100%;
+    font-size: 8em;
+    color: #fff;
+    pointer-events: none;
+    line-height: 1em;
+    white-space: nowrap;
+    text-shadow: calc(var(--x)) 100px 0 rgba(255, 255, 255, 0.1);
+    transform: translateX(calc(0% - var(--x) * var(--i)));
+}
+
+.text h2 span {
+    color: #00aaff;
+    margin: 0 10px;
+    background: transparent;
+}
+
+.text h2 span:nth-child(even) {
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+.page-2 {
+    width: 100%;
+    height: 85rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.section-title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.img {
+    width: 10rem;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #007bff;
+
+}
+
+.date {
+    width: 50%;
+}
+
+.page-3 {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 3rem; */
+}
+
+.fb {
+    align-items: center;
+    flex-direction: column;
+}
+
+.filler {
+    align-items: start;
+    height: 30rem;
+    margin-bottom: 0;
+}
+
+.page-4 {
+    width: 100%;
+    height: 77rem;
+}
+
+.dec-box {
+    width: 95%;
+    height: fit-content;
+    border-radius: 10px;
+    background: rgb(17, 17, 17);
+    background: linear-gradient(180deg, rgba(17, 17, 17, 1) 5%, rgba(0, 101, 240, 0.4234068627450981) 87%);
+    /* background-color: #007bf0; */
+    padding: 10px;
+
+}
+
+.dec-box:hover {
+    background: rgb(17, 17, 17);
+    background: linear-gradient(180deg, rgba(17, 17, 17, 1) 0%, rgba(0, 101, 240, 0.8799894957983193) 68%);
+}
+
+.page-5 {
+    width: 100%;
+    height: 135rem;
+}
+
+.event-div {
+    width: 100%;
+    height: fit-content;
+    padding: 25px;
+    border-radius: 50px;
+    background-color: #0171e950;
+}
+
+.page-6 {
+    width: 100%;
+    height: 64rem;
+}
+
+.bg-trns {
+    background: transparent;
+}
+
+.page-7 {
+    width: 100%;
+    height: 45rem;
+}
+
+.page-8 {
+    width: 100%;
+    height: 92rem;
+}
