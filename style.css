@@ -2,10 +2,11 @@
     background-color: #111;
     padding: 0;
     margin: 0;
+    /* overflow-x: hidden; */
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden;   
 }
 
 /* Welcome animation */
@@ -54,7 +55,7 @@ body {
 
 .page-1 {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,11 +66,6 @@ body {
     /* padding-top: 0; */
 }
 
-.content {
-    width: 100%;
-    height: 100vh;
-
-}
 
 #main-title {
     font-size: clamp(2rem, 12vw, 10rem);
@@ -150,7 +146,7 @@ footer {
 
 .page-2 {
     width: 100%;
-    height: 85rem;
+    height: fit-content;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -181,11 +177,13 @@ footer {
 
 .page-3 {
     width: 100%;
-    height: 35rem;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     /* padding-top: 3rem; */
 }
 
@@ -196,14 +194,15 @@ footer {
 
 .filler {
     /* width: 100vb; */
-    /* align-items: start; */
+    align-items: start;
     height: 30rem;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
 }
 
 .page-4 {
     width: 100%;
-    height: 77rem;
+    height: fit-content;
+    padding: 0.5rem;
 }
 
 .dec-box {
@@ -224,7 +223,8 @@ footer {
 
 .page-5 {
     width: 100%;
-    height: 135rem;
+    height: fit-content;
+    padding: 0.5rem;
 }
 
 .event-div {
@@ -237,7 +237,8 @@ footer {
 
 .page-6 {
     width: 100%;
-    height: 70rem;
+    height: fit-content;
+    padding: 0.5rem;
 }
 
 .bg-trns {
@@ -246,12 +247,14 @@ footer {
 
 .page-7 {
     width: 100%;
-    height: 45rem;
+    height: fit-content;
+    padding: 0.5rem;
 }
 
 .page-8 {
     width: 100%;
-    height: 92rem;
+    height: fit-content;
+    padding: 0.5rem;
 }
 
 .moving {
