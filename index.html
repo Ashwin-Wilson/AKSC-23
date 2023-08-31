@@ -13,14 +13,15 @@
 </head>
 
 <body>
-    <header>
-        <!-- <nav class="navbar navbar-expand-lg navbar-dark py-2 px-5 fixed-top "> -->
-        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong py-2 px-5 fixed-top">
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark py-2 px-5 fixed-top ">
+
             <div class="container-fluid">
-                <a href="#" class="navbar-brand text-center">
-                    AKSC'23
-                    <!-- <img src="assets/Icons/AKSC_Logo.png" height="32" alt="AKSC'23"> -->
-                </a>
+                <h6 class="section-title">AKSC'23</h6>
+                <!-- <a href="#" class="navbar-brand" >
+                    
+                  <img src="assets/Icons/AKSC_Logo.png" height="32" alt="AKSC'23">
+                </a> -->
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -32,12 +33,11 @@
                         <a href="#highlight" class="nav-item nav-link active">Highlights</a>
                         <a href="/register" class="nav-item nav-link active"> <input type="button" value="Register"
                                 class="btn" style="color:white;"></a>
-
-
                     </div>
                 </div>
             </div>
         </nav>
+
     </header>
     <!-- --------------------------------------HOME -------------------------------------->
     <section class="page-1 content my-5">
@@ -87,8 +87,7 @@
     </section>
     <!-- --------------------------------------FILLER -------------------------------------->
 
-
-    <div class="filler">
+    <footer class="filler">
         <div class="text ">
             <h2 style="--i:0.5">
                 <span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span>
@@ -106,7 +105,7 @@
                 <span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span>
             </h2>
         </div>
-    </div>
+    </footer>
     <section class="page-3 text-center">
 
         <div class="container">
@@ -289,7 +288,7 @@
         </div>
         </div>
     </section>
-    <div class="filler">
+    <footer class="filler">
         <div class="text ">
             <h2 style="--i:0.5">
                 <span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span>
@@ -307,8 +306,8 @@
                 <span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span>
             </h2>
         </div>
-    </div>
-    <section class="page-5 text-center">
+    </footer>
+    <section class="page-5 text-center py-5">
         <div class="container">
             <div>
                 <h1 class="section-title">Events</h1>
@@ -406,7 +405,7 @@
         </div>
 
     </section>
-    <div class="filler">
+    <footer class="filler">
         <div class="text ">
             <h2 style="--i:0.5">
                 <span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span>
@@ -424,8 +423,8 @@
                 <span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span>
             </h2>
         </div>
-    </div>
-    <section id="highlight" class="page-6 text-center">
+    </footer>
+    <section id="highlight" class="page-6 text-center py-5">
         <div class="container">
             <div>
                 <h1 class="section-title">
@@ -470,7 +469,7 @@
             </div>
         </div>
     </section>
-    <div class="filler">
+    <footer class="filler">
         <div class="text ">
             <h2 style="--i:0.5">
                 <span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span>
@@ -488,8 +487,8 @@
                 <span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span><span>AKSC'23</span>
             </h2>
         </div>
-    </div>
-    <section class="page-7 text-center">
+    </footer>
+    <section class="page-7 text-center py-5">
         <div class="container">
             <div>
                 <h1 class="section-title">
@@ -503,29 +502,44 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 my-5">
-                    <div class="event-div text-white">
+                    <div class="event-div text-white" style="height: 10rem;">
                         <h3 class="bg-trns">Early Bird</h3>
-                        <table style="width: 100%;">
-                            <tr>
-                                <td style="text-align: left; background: transparent;">
-                                    <h4 class="bg-trns">IEEE Members</h4>
-                                </td>
-                                <td style="text-align: right;">
-                                    <h6>₹300</h6>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">
-                                    <h4 style="text-align: left;">Non IEEE Members</h4>
-                                </td>
-                                <td style="text-align: right;">
-                                    <h6>₹500</h6>
-                                </td>
-                            </tr>
-                        </table>
+                        <div>
+                            <h4 style="float: left;width: 50%;"class="bg-trns">
+                                IEEE Members
+                            </h4>
+                            <h6 style="float: left;width: 50%;"class="bg-trns">
+                                ₹300</h6>
+                        </div>
+                        <div style="float: left;width: 100%;" class="bg-trns">
+                            <h4 style="float: left;width: 50%;"class="bg-trns">
+                                Non IEEE Members
+                            </h4>
+                            <h6 style="float: left;width: 50%;"class="bg-trns">
+                                ₹500</h6>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 my-5">
+                    <div class="event-div text-white" style="height: 10rem;">
+                        <h3 class="bg-trns">Normal</h3>
+                        <div>
+                            <h4 style="float: left;width: 50%;"class="bg-trns">
+                                IEEE Members
+                            </h4>
+                            <h6 style="float: left;width: 50%;"class="bg-trns">
+                                ₹300</h6>
+                        </div>
+                        <div style="float: left;width: 100%;" class="bg-trns">
+                            <h4 style="float: left;width: 50%;"class="bg-trns">
+                                Non IEEE Members
+                            </h4>
+                            <h6 style="float: left;width: 50%;"class="bg-trns">
+                                ₹700</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-md-6 my-5">
                     <div class="event-div text-white">
                         <h3 class="bg-trns">Normal</h3>
                         <table style="width: 100%;">
@@ -547,7 +561,7 @@
                             </tr>
                         </table>
                     </div>
-                </div>
+                </div> -->
 
             </div>
             <div class="row my-3">

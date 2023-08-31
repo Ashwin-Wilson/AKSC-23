@@ -108,9 +108,10 @@ footer {
 }
 
 .text {
+    /* width: 100%; */
     position: relative;
     transform: skewY(345deg) translate(-200px);
-    animation: animateColor 5s linear infinite;
+    /* animation: animateColor 5s linear infinite; */
 }
 
 @keyframes animateColor {
@@ -194,7 +195,8 @@ footer {
 }
 
 .filler {
-    align-items: start;
+    /* width: 100vb; */
+    /* align-items: start; */
     height: 30rem;
     margin-bottom: 0;
 }
@@ -235,7 +237,7 @@ footer {
 
 .page-6 {
     width: 100%;
-    height: 64rem;
+    height: 70rem;
 }
 
 .bg-trns {
@@ -250,4 +252,22 @@ footer {
 .page-8 {
     width: 100%;
     height: 92rem;
+}
+
+.moving {
+    /* animation: linear infinite; */
+    animation-duration: 1s;
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+}
+
+@keyframes moving {
+    from {
+        right: 0%;
+    }
+    to {
+        left: 50%;
+    }
 }
