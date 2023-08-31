@@ -2,11 +2,17 @@
     background-color: #111;
     padding: 0;
     margin: 0;
-    /* overflow-x: hidden; */
+   
 }
+ /* overflow-x: hidden; */
 
 body {
-    overflow-x: hidden;   
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #111;
+    padding: 0px;
+    margin: 0px;   
 }
 
 /* Welcome animation */
@@ -55,15 +61,13 @@ body {
 
 .page-1 {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transform: scale(1.2);
-    background-image: url(assets/bg-img.jpeg);
-    /* url(assets/bg-img.jpeg) */
-    /* padding-top: 0; */
+    transform: scale(1);
+    background-image: url(assets/bg-img.jpeg)
 }
 
 
@@ -87,12 +91,12 @@ body {
 }
 
 .sub-title {
-    font-size: clamp(0.5rem, 3vw, 2rem);
+    font-size: 2rem;
     font-weight: 600;
     color: #ff576b;
     text-align: center;
     text-transform: capitalize;
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 footer {
@@ -172,7 +176,7 @@ footer {
 }
 
 .date {
-    width: 50%;
+    width: 100%;
 }
 
 .page-3 {
@@ -206,7 +210,7 @@ footer {
 }
 
 .dec-box {
-    width: 95%;
+    width: 100%;
     height: fit-content;
     border-radius: 10px;
     background: rgb(17, 17, 17);
